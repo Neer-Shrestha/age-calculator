@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Age calculator app | Frontend Mentor</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <main class="site-main">
+    <div class="container">
+      <form id="age-form" class="age-form" autocomplete="off">
+        <div class="form-group">
+          <div class="form-field">
+            <label for="day">Day</label>
+            <input type="text" name="day" id="day" class="form-control">
+            <span class="day-error"></span>
+          </div>
+          <div class="form-field">
+            <label for="month">Month</label>
+            <input type="text" name="month" id="month" class="form-control">
+            <span class="day-error"></span>
+          </div>
+          <div class="form-field">
+            <label for="year">Year</label>
+            <input type="text" name="year" id="year" class="form-control">
+            <span class="day-error"></span>
+          </div>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn-submit" aria-label="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+              <g fill="none" stroke="#FFF" stroke-width="2">
+                <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+              </g>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <div class="output-container">
+        <div class="output-item output-year"><span>--</span> years</div>
+        <div class="output-item output-month"><span>--</span> months</div>
+        <div class="output-item output-day"><span>--</span> days</div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- js -->
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
