@@ -80,7 +80,7 @@ window.addEventListener("DOMContentLoaded", () => {
     function animateOutput(element, number) {
         let count = 0;
         const interval = setInterval(() => {
-            if (count > number) {
+            if (count >= number) {
                 clearInterval(interval);
                 element.textContent = number;
             }
