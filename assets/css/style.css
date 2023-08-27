@@ -29,7 +29,7 @@ body {
     color: var(--clr-black);
     line-height: 1.2;
     font-weight: 400;
-    background-color: var(--clr-light-gray);
+    background-color: var(--clr-off-white);
 }
 
 .site-main {
@@ -66,6 +66,9 @@ body {
 .form-control:focus {
     border-color: var(--clr-purple);
     outline: none;
+}
+.form-control::placeholder {
+    color: var(--clr-light-gray);
 }
 
 .form-field {
